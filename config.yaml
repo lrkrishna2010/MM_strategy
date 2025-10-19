@@ -1,0 +1,26 @@
+symbols: ["XYZ","ABC"]
+quote_size: 40
+inventory_limit: 400
+base_spread_bps: 4.0
+portfolio_var_limit: 1500.0
+hedge_fraction_portfolio: 0.3
+use_avellaneda: true
+use_hawkes: true
+router_top_k: 2
+impact_kappa: 0.03
+adaptive_tick: true
+min_tick: 0.005
+max_tick: 0.05
+venues:
+  - name: VENUE_A
+    maker_fee_bps: -0.05
+    taker_fee_bps: 0.20
+    latency_ms: 2
+  - name: VENUE_B
+    maker_fee_bps: -0.02
+    taker_fee_bps: 0.25
+    latency_ms: 5
+  - name: VENUE_C
+    maker_fee_bps: -0.08
+    taker_fee_bps: 0.18
+    latency_ms: 8
