@@ -41,7 +41,7 @@ MM_strategy/
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ```bash
 # Clone repository
@@ -60,7 +60,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Running the Simulation
+## Running the Simulation
 
 ```bash
 python main.py
@@ -90,7 +90,7 @@ The dashboard visualizes:
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 Edit **`config.yaml`** to tune:
 | Parameter | Description |
